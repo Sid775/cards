@@ -8,7 +8,7 @@ import java.util.UUID;
 
 @Entity
 @Table
-public class Card implements Serializable{
+public class Card implements Serializable {
 
     @Id
     @Column
