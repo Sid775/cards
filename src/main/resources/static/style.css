@@ -1,0 +1,38 @@
+.container {
+    display: block;
+    max-width: 600px;
+    position: relative;
+    height: 36px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.persistent-placeholder {
+    height: auto;
+    width: 100%;
+    color: silver;
+    z-index: 0;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    background-color: transparent;
+    border: none;
+    text-indent: 5px;
+    line-height: 36px;
+}
+
+.free-typing {
+    z-index: 1;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;  bottom: 0;
+    left: 0;  right: 0;
+    box-sizing: border-box;
+    border: none;
+    text-indent: 5px;
+    line-height: 36px;
+    font-size: 18px;
+}
